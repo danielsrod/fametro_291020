@@ -16,9 +16,12 @@ int main() {
 		x++;
 	}
 	
+	printf("====Maiores de idade====");
+	
 	for (int i = 0; i < 10; i++) {
 		if (idade[i] >= 18) {
-			printf("\n%s", nome[i]);
+			printf("\n%s ", nome[i]);
+			printf("%d", idade[i]);
 		}
 	}
 		
